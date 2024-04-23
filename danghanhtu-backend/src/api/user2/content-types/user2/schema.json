@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user2s",
+  "info": {
+    "singularName": "user2",
+    "pluralName": "user2s",
+    "displayName": "User2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    }
+  }
+}
